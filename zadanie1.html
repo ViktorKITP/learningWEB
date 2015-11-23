@@ -14,12 +14,18 @@
     var yrokHead=document.documentElement;
 	alert("yrokHead.firstElementChild="+yrokHead.firstElementChild); <!--первый элемент HEAD-->
     var yrokBody=document.body;
-	alert("yrokBody.childNodes[3]="+yrokBody.childNodes[3]); <!--второй элемент UL-->
-	alert("через цыкл"); <!--второй элемент UL-->
+	alert("yrokBody.childNodes[3]="+yrokBody.childNodes[3]); <!--четвертый элемент UL-->
+	alert("через цикл"); 
+	var temp=0;
 	for (var i=0; i<=yrokBody.children.length;i++){
-		if (yrokBody.childNodes[i].tagName=='UL')
+		if (yrokBody.childNodes[i].tagName=='UL'){
 			alert('We are FIND tag UL');
-	}		
+			temp=i;
+		}
+	}
+	
+	alert("Li="+yrokBody.childNodes[temp].firstElementChild.nextElementSibling.innerHTML);	//нашли второй li
+	
   </script>
 </body>
 </html>
