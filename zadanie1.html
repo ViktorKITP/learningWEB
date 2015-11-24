@@ -16,10 +16,18 @@
     var yrokBody=document.body;
 	alert("yrokBody.childNodes[3]="+yrokBody.childNodes[3]); <!--второй элемент UL-->
 	alert("через цыкл"); <!--второй элемент UL-->
+	var temp='';
 	for (var i=0; i<=yrokBody.children.length;i++){
-		if (yrokBody.childNodes[i].tagName=='UL')
+		if (yrokBody.childNodes[i].tagName=='UL'){
+		temp=i;
 			alert('We are FIND tag UL');
+			
+		}
 	}		
+		alert("second LI first example-"+yrokBody.childNodes[temp].firstElementChild.nextElementSibling+" = "+yrokBody.childNodes[temp].firstElementChild.nextElementSibling.innerHTML);
+		alert("second LI second example-"+yrokBody.childNodes[temp].children[1]+" = "+yrokBody.childNodes[temp].children[1].innerHTML);
+	
+		
   </script>
 </body>
 </html>
