@@ -1,0 +1,26 @@
+#head{
+	float:top;
+	width:200px; 
+	height:100px;	
+	
+}
+#head_text{
+	float:top;
+	font-size:30px;
+	font-family:Arial;
+	color:red;
+}
+#menu{
+	
+}
+#main{
+	margin-left:300px;
+}
+#mainHeader{
+	
+}
+#bottom{
+	float:bottom;
+	margin-top:200px;
+	
+}

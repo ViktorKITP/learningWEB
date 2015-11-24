@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Верстка на DIV ах</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id = "head">Вот тебе и DIV
+	<div id = "head_text">Head_TEXT</div>
+</div>
+
+<div id = "head_text">Покажем каскадность( конфликт)
+	<div style="color:blue">Конфликт цвета, приминяется внутренный стиль</div>
+	<div>А сдесь все нармуль-красненький</div>
+</div>
+<div id="menu">Меню</div>
+
+
+
+<div>Блок новостей</div>
+
+<div id="main">
+	<div id="mainHeader">Заголовок основного блока</div>
+	<table border="1">
+					 <tr>
+						<th>Номер урока</th>
+						<th>Задание</th>
+						<th>Deadline</th>		
+					 </tr>
+					 <tr>
+						<td>1</td>
+						<td>Задание1</td>
+						<td>25.05.15</td>		
+					 </tr>
+					 <tr>
+						<td>2</td>
+						<td>Задание2</td>
+						<td>1.06.15</td>		
+					 </tr>
+					 <tr>
+						<td>Итого</td>
+						<td colspan="2" align="center">Задание2</td>
+						</tr>								 
+	</table>
+</div>
+
+
+<div id="bottom"> Подвал</div>
+
+</body
+
+</html>
