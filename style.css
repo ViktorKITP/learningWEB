@@ -19,8 +19,34 @@
 #mainHeader{
 	
 }
-#bottom{
-	float:bottom;
-	margin-top:200px;
-	
+.bottom{	
+	margin:0 auto;	
 }
+.table{
+	background-color: green;
+	border-style:solid;
+	border-width:1px;
+	border-color:#ffffff;
+	
+	border:1px double black;
+	border-collapse: collapse;
+}
+.table td{
+	border-color:#ffffff;
+	border:1px solid black;
+}
+.table th{
+	padding:10px;
+	border-color:#000000;
+	border:1px solid black;
+}
+.table tr{
+	padding:10px;
+	border-color:#ffffff;
+	border:1px solid black;
+}
+
+body{
+	margin:0 auto;
+	background-color: blue;
+	}
