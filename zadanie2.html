@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  <div>Пользователи:</div>
+  <ul>
+    <li>Маша</li>
+    <li>Вовочка</li>
+	<li></li>
+  </ul>
+  <!-- комментарий -->
+  <script>
+    
+    
+    var yrokBody=document.body;
+	for (var i=0; i<=yrokBody.children.length;i++){
+		if (yrokBody.childNodes[i].tagName=='UL'){
+			alert('We are FIND tag UL');
+			for (var j=0; j<=yrokBody.childNodes[i].children.length;j++){
+				if (yrokBody.childNodes[i].children[j].innerHTML==''){
+							alert('yrokBody.childNodes[i].children[j].innerHTML='+yrokBody.childNodes[i].children[j].innerHTML);
+				}
+			}
+		}		
+	}		
+//		alert("second LI first example-"+yrokBody.childNodes[temp].firstElementChild.nextElementSibling+" = //"+yrokBody.childNodes[temp].firstElementChild.nextElementSibling.innerHTML);
+	//	alert("second LI second example-"+yrokBody.childNodes[temp].children[1]+" = "+yrokBody.childNodes[temp].children[1].innerHTML);
+	
+		
+  </script>
+</body>
+</html>
