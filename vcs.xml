@@ -6,8 +6,16 @@
           <option name="url" value="https://github.com/ViktorKITP/testJavaFX.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ViktorKITP/gameSeaBatle.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ViktorKITP/seaBattle.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\IdeaProjects" />
+    <option name="cloneParentDir" value="C:\IdeaProjects\webdev\" />
   </component>
 </application>
